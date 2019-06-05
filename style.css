@@ -1,0 +1,26 @@
+*{
+    box-sizing: border-box;
+}
+h1{
+    text-align: center;
+}
+.board{
+    display: inline-block;
+    width:45%;
+    margin: 0px 2vw;
+}
+table{
+   text-align: center;
+   margin: 0 auto;
+   border-spacing: unset;
+}
+td{
+    font-size: 19px;
+    vertical-align: middle;
+    font-weight: bold;
+    line-height: 1.6em;
+    display: inline-grid;
+    width: 35px;
+    height: 35px;
+    border: 1px solid #4c4949;
+}
